@@ -1,3 +1,5 @@
+<?xml version="1.0"?>
+<!--
 /**
  * GiaPhuGroup Co., Ltd.
  *
@@ -14,8 +16,14 @@
  *
  * @category    PHPCuong
  * @package     PHPCuong_Core
- * @copyright   Copyright (c) 2017-2018 GiaPhuGroup Co., Ltd. All rights reserved. (http://www.giaphugroup.com/)
+ * @copyright   Copyright (c) 2017-2019 GiaPhuGroup Co., Ltd. All rights reserved. (http://www.giaphugroup.com/)
  * @license     https://www.giaphugroup.com/LICENSE.txt
  */
-
-@import '../lib/_bootstrap-grid.less';
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="phpcuong" translate="label" sortOrder="10000">
+            <label>GiaPhuGroup Extensions</label>
+        </tab>
+    </system>
+</config>
