@@ -34,7 +34,7 @@ class InstallData implements InstallDataInterface
 {
     const COMPANY_NAME = 'GiaPhuGroup Co., Ltd.';
 
-    const COPYRIGHT = 'Copyright © 2018-2019 <a href="http://www.giaphugroup.com/" target="_blank">GiaPhuGroup Co., Ltd.</a> All rights reserved.';
+    const COPYRIGHT = 'Copyright © 2017-2019 <a href="http://www.giaphugroup.com/" target="_blank">GiaPhuGroup Co., Ltd.</a> All rights reserved.';
 
     const SKYPE_ID = 'cuongnq87';
 

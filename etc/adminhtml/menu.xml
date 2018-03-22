@@ -23,7 +23,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
     <menu>
         <add id="PHPCuong_Core::giaphugroup_menu" title="GiaPhuGroup" translate="title" module="PHPCuong_Core" sortOrder="60" resource="PHPCuong_Core::menu"/>
-        <add id="PHPCuong_Core::documentation" title="Documentations" module="PHPCuong_Core" sortOrder="999" resource="PHPCuong_Core::documentation" parent="PHPCuong_Core::giaphugroup_menu"/>
-        <add id="PHPCuong_Core::userguide" title="User Guides" module="PHPCuong_Core" sortOrder="10" action="phpcuong_core/index/userguide" resource="PHPCuong_Core::userguide" parent="PHPCuong_Core::documentation"/>
+        <add id="PHPCuong_Core::documentation" title="Documentations" translate="title" module="PHPCuong_Core" sortOrder="999" resource="PHPCuong_Core::documentation" parent="PHPCuong_Core::giaphugroup_menu"/>
+        <add id="PHPCuong_Core::userguide" title="User Guides" translate="title" module="PHPCuong_Core" sortOrder="10" action="phpcuong_core/index/userguide" resource="PHPCuong_Core::userguide" parent="PHPCuong_Core::documentation"/>
     </menu>
 </config>
