@@ -21,7 +21,7 @@
 var config = {
     map: {
         '*': {
-            phpCuongOwlCarousel: 'PHPCuong_Core/js/owl.carousel'
+            phpCuongOwlCarousel: 'PHPCuong_Core/js/lib/owl.carousel'
         }
     }
 };

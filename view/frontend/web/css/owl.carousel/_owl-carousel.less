@@ -21,7 +21,6 @@
 //  Common
 //  _____________________________________________
 & when (@media-common = true) {
-  .owl-carousel {
     .owl-dots {
       text-align: center;
       button.owl-dot {
@@ -75,19 +74,18 @@
         }
       }
     }
+  .owl-carousel {
     &:hover {
-      .owl-nav {
-        button.owl-next,
-        button.owl-prev {
+      button.owl-next,
+      button.owl-prev {
+        span {
+          background-color: #b8567d42;
+          color: #fff;
+          opacity: 1;
+        }
+        &:hover {
           span {
-            background-color: #b8567d42;
-            color: #fff;
-            opacity: 1;
-          }
-          &:hover {
-            span {
-              background-color: #b8567d;
-            }
+            background-color: #b8567d;
           }
         }
       }
