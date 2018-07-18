@@ -1,5 +1,3 @@
-<?xml version="1.0"?>
-<!--
 /**
  * GiaPhuGroup Co., Ltd.
  *
@@ -16,10 +14,14 @@
  *
  * @category    PHPCuong
  * @package     PHPCuong_Core
- * @copyright   Copyright (c) 2017-2018 GiaPhuGroup Co., Ltd. All rights reserved. (http://www.giaphugroup.com/)
+ * @copyright   Copyright (c) 2018-2019 GiaPhuGroup Co., Ltd. All rights reserved. (http://www.giaphugroup.com/)
  * @license     https://www.giaphugroup.com/LICENSE.txt
  */
--->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="PHPCuong_Core" setup_version="2.2.0.1" />
-</config>
+
+var config = {
+    map: {
+        '*': {
+            phpCuongOwlCarousel: 'PHPCuong_Core/js/owl.carousel'
+        }
+    }
+};
